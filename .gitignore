@@ -1,0 +1,134 @@
+# ===========================
+# Build Directories
+# ===========================
+
+# Maven build directories
+/target/
+!/src/**/target/
+
+# Gradle build directories
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===========================
+# Maven Wrapper
+# ===========================
+
+# Allow Maven wrapper JAR
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# IDEs and Editors
+# ===========================
+
+## Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+## IntelliJ IDEA
+/.idea/
+/*.iws
+/*.iml
+/*.ipr
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## Visual Studio Code
+/.vscode/
+
+## Other IDE Generated Files
+/out/
+gen/
+
+# ===========================
+# Operating System
+# ===========================
+
+## macOS
+.DS_Store
+
+# ===========================
+# Logs and Reports
+# ===========================
+
+# Log files
+/logs/
+*.log
+
+# Allure reports
+/allure-results/
+/allure-report/
+
+# JVM crash logs
+hs_err_pid*
+
+# ===========================
+# Package Files
+# ===========================
+
+# Java package files
+*.jar
+*.war
+*.ear
+
+# Other package formats
+*.zip
+*.tar.gz
+*.rar
+
+# ===========================
+# Docker
+# ===========================
+
+# Docker image tarball
+src/main/resources/todo-app.tar
+
+# ===========================
+# Test Outputs
+# ===========================
+
+# Test output directories
+/test-output/
+
+# ===========================
+# Temporary and Configuration Files
+# ===========================
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment configuration files
+*.env
+
+# ===========================
+# Code Coverage
+# ===========================
+
+# Coverage reports
+/coverage/
+
+# ===========================
+# Mobile Tools for Java (J2ME)
+# ===========================
+
+.mtj.tmp/
+
+# ===========================
+# Application Specific
+# ===========================
+
+*.ctxt
+/.allure/
+/.mvn/

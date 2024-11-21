@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Positive Tests",
+    "matchedStatuses": [
+      "passed"
+    ],
+    "messageRegex": ".*",
+    "traceRegex": ".*",
+    "labels": {
+      "tag": "positive"
+    }
+  },
+  {
+    "name": "Negative Tests",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*",
+    "traceRegex": ".*",
+    "labels": {
+      "tag": "negative"
+    }
+  }
+]
